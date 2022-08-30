@@ -1,0 +1,12 @@
+//Elaborar um programa para calcular e exibir o quadrado de apenas UM número inteiro
+
+#include <stdio.h>
+
+int main (){
+    int num,quad;
+    
+    scanf("%d", &num);
+    
+    quad = num*num;
+    printf("%d\n", quad); 
+}
