@@ -1,0 +1,17 @@
+// Dados os coeficientes reais a, b e c, de um polinômio do segundo grau, com a diferente de zero. Elaborar um programa para calcular e exibir a abcissa do vértice da parábola.
+   A saída deve ser um número com 4 casas após o ponto decimal.
+
+#include <stdio.h>
+
+int main(){
+    float a, b,resultado;
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &resultado);
+    
+    if (a!=0){
+        resultado = -b/(2*a);
+        printf("%.4f", resultado);
+    }
+    
+}
